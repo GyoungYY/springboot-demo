@@ -11,4 +11,9 @@ public class HelloController {
     public String say(){
         return "Hello yangguang!Your fisrt springboot appliication is success";
     }
+
+    @RequestMapping(value="getList",method = RequestMethod.GET)
+    public String getList(){
+        return "list list list ....";
+    }
 }
