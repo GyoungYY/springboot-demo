@@ -1,4 +1,4 @@
-package com.aguang.jinjuback.Mappers;
+package com.example.demo.Mappers;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;

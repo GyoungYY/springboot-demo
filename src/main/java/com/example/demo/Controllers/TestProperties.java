@@ -1,4 +1,4 @@
-package com.aguang.jinjuback.Controllers;
+package com.example.demo.Controllers;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

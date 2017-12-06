@@ -1,7 +1,7 @@
-package com.aguang.jinjuback.Controllers;
+package com.example.demo.Controllers;
 
-import com.aguang.jinjuback.Mappers.UserInfo;
-import com.aguang.jinjuback.Services.UserService;
+import com.example.demo.Mappers.UserInfo;
+import com.example.demo.Services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

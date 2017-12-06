@@ -1,7 +1,7 @@
-package com.aguang.jinjuback.Services;
+package com.example.demo.Services;
 
-import com.aguang.jinjuback.Mappers.UserInfo;
-import com.aguang.jinjuback.Mappers.UserInfoMapper;
+import com.example.demo.Mappers.UserInfo;
+import com.example.demo.Mappers.UserInfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
