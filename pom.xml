@@ -54,6 +54,12 @@
 			<artifactId>druid</artifactId>
 			<version>1.0.5</version>
 		</dependency>
+
+		<!--AOP-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

@@ -7,3 +7,5 @@
 - controller、service、dao分层结构
 - @RestController、@Service、@Repository、@Override、@Autowired、@RequestParam、@Pathvariable等注解用法
 - Test测试
+- 对象UserInfo作为参数
+- AOP
