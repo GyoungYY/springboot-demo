@@ -2,7 +2,7 @@ package com.example.demo.Controllers;
 
 import com.example.demo.Mappers.UserInfo;
 import com.example.demo.Pojo.Result;
-import com.example.demo.Services.MybatisService;
+import com.example.demo.Services.MybatisXMLService;
 import com.example.demo.Utils.ExceptionHandle;
 import com.example.demo.Utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/mybatis")
-public class MybatisController {
+@RequestMapping("/mybatis2")
+public class MybatisXMLController {
 
     @Autowired
-    private MybatisService mybatisService;
+    private MybatisXMLService mybatisService;
 
     @Autowired
     private ExceptionHandle exceptionHandle;
@@ -76,3 +76,4 @@ public class MybatisController {
     }
 
 }
+

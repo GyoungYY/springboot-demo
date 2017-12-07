@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.Dao.MybatisUserXMLMapper">
+
+    <insert id="createUserByMap" parameterType="java.util.Map">
+        INSERT INTO jinju.jj_user(tel,password,nickname,secret) VALUES(#{tel},md5(#{pwd}),#{tel},'');
+    </insert>
+
+    <update id="updateUser">
+        UPDATE jinju.jj_user SET nickname = #{nickName} WHERE user_id = #{id};
+    </update>
+
+    <select id="getUser" resultType="com.example.demo.Mappers.UserInfo">
+        SELECT tel,nickname,password FROM jinju.jj_user WHERE user_id = #{id};
+    </select>
+
+    <delete id="deleteUserByUserTel">
+        DELETE FROM jinju.jj_user WHERE tel = #{tel};
+    </delete>
+
+</mapper>
