@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+//使用了Mybatis后Spring会默认使用mybatis配置，而不是jdbc配置
 @Repository
 public class UserInfoImpl implements UserInfoMapper {
 
