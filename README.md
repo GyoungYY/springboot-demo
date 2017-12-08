@@ -10,3 +10,4 @@
 - 对象UserInfo作为参数
 - AOP统一结果处理
 - Mybatis注解处理、XML处理
+- Swagger2调试API
